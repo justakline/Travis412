@@ -33,7 +33,7 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testMultiplyByOne() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.multiply(1, 3), 1);
+		assertEquals(calc.multiply(1, 3), 3);
 	}
 
 	@Test
