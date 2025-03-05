@@ -48,7 +48,7 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.divide(2,5), 0);
 	}
 
-	@Test(expected = NullPointerException.class)
+	@Test(expected = ArithmeticException.class)
 	public void testDivideByZero() {
 		SimpleCalculator calc = new SimpleCalculator();
 		calc.divide(5, 0);
